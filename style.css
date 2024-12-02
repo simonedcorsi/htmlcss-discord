@@ -3,6 +3,8 @@
     --color2: #DAA521;
     --color3: #EE81EE;
     --color4: #5c5a5a;
+    --color5: #21B2AA;
+    --color6: #23272A;
 }
 
 header {
@@ -57,11 +59,6 @@ main section:last-child > div {
     flex-direction: column;
 }
 
-main section {
-    height: 80px;
-    
-}
-
 .flex-basis-60 {
     flex-basis: 60%;
     height: 60px;
@@ -70,4 +67,18 @@ main section {
 .flex-basis-40 {
     flex-basis: 40%;
     height: 60px;
+}
+
+footer .flex div {
+    flex-basis: calc((100%) / 5);
+    height: 50px;
+    background-color: var(--color5);
+}
+
+footer .flex div:first-child {
+    flex-basis: 25% ;
+}
+
+footer {
+    background-color:var(--color6);
 }
