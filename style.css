@@ -4,8 +4,10 @@
     --color3: #EE81EE;
     --color4: #5c5a5a;
     --color5: #21B2AA;
+    */
+    :root {
     --color6: #23272A;
-}*/
+    }
 
 html {
     font-family: sans-serif;
@@ -56,7 +58,7 @@ height: 30px;
 .container-80 {
     width: 60%;
     margin: 0 auto;
-    padding-top: 50px;
+    padding-top: 100px;
 }
 
 
@@ -87,4 +89,5 @@ footer .flex div:first-child {
 
 footer {
     background-color:var(--color6);
+    color: white;
 }
