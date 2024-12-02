@@ -7,7 +7,7 @@
     */
     :root {
     --color6: #23272A;
-    --color4: #5c5a5a;
+    --color4: #d0d0d0;
     }
 
 html {
@@ -40,7 +40,6 @@ height: 30px;
 .menu
  {
     height: 50px;
-    width: 80px;
     background-color: var(--color2);
     color: white;
 }
@@ -76,15 +75,18 @@ main section:last-child > div {
 
 .flex-basis-40 {
     flex-basis: 40%;
+    padding: 50px;
 }
 
 footer .flex div {
     flex-basis: calc((100%) / 5);
     background-color: var(--color5);
+    padding: 10px;
 }
 
 footer .flex div:first-child {
     flex-basis: 25% ;
+    width: 200px;
 }
 
 footer {
@@ -92,22 +94,40 @@ footer {
     color: white;
 }
 
-hr {
-    color: blue;
-}
-
 .button1 {
     background-color: blue;
     color: white;
     padding: 15px;
     border-radius: 20px;
-    align-items: center;
+    margin: 0 auto;
+    
 }
 
 .blu {
     color: blue;
 }
 
-h2 {
+.h2-bg {
     text-align: center;
+    background-image:url(img-3/stars.svg) ;
+    background-size:auto;
+}
+hr {
+    color: blue;
+    
+}
+
+.foot-flex {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--color6);
+    padding-top: 20px;
+}
+
+.button2 {
+background-color: blue;
+color: white;
+height: 30px;
+width: auto;
+border-radius: 20px;
 }
